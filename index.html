@@ -178,12 +178,29 @@
         <p class="popup__error"></p>
         <div class="popup__input-wrapper popup__input-wrapper_password">
           <input type="text" name="password" id="password" class="popup__input-text popup__input-text_password" placeholder="Ваш пароль">
-          <a href="#" class="popup__text-link popup__text-link_get-pass pop-op" data-popup="">Забыли пароль?</a>
+          <a href="#" class="popup__text-link popup__text-link_get-pass pop-op" data-popup="popup-restore-password">Забыли пароль?</a>
         </div>
         <p class="popup__error"></p>
         <button class="popup__btn-login btn">Войти</button>
         <p class="popup__text popup__text_help2">Если ты впервые <br> на сайте, то тебе необходимо</p>
         <a href="#" class="popup__link popup__link-register pop-op" data-popup="popup-registration">зарегистрироваться</a>
+      </form>
+    </div>
+  </div>
+  <!-- Popup restore-password -->
+  <div id="popup-restore-password" class="popup">
+    <div class="popup__wrap">
+      <button class="popup__close close-popup js-close-popup" aria-label="Close Popup">
+        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2L2 18" stroke-width="4" stroke-linejoin="round" />
+          <path d="M2 2L18 18" stroke-width="4" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <form action="/">
+        <p class="popup__title">Сброс пароля</p>
+        <p class="popup__text">Укажи почту, с которой ты регистрировался на сайте</p>
+        <input type="text" name="email" id="login" class="popup__input-text popup__input-login" placeholder="E-mail">
+        <button class="popup__btn-login btn">Отправить</button>
       </form>
     </div>
   </div>

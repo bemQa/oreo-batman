@@ -7,11 +7,12 @@
   <title>Oreo</title>
   <link rel="icon" href="./favicon.ico">
   <link rel="stylesheet" href="./assets/libs/scrollbar/jquery.scrollbar.css">
+  <link rel="stylesheet" href="./assets/libs/select2/select2-v1.min.css">
   <link href="./assets/css/all.css" rel="stylesheet">
-  <link href="./assets/css/product.css" rel="stylesheet">
+  <link href="./assets/css/winners.css" rel="stylesheet">
 </head>
 <body>
-  <div class="page product-page">
+  <div class="page winners-page">
     <div class="gotham-decor"></div>
     <header class="header wrapper">
       <a href="/" class="header__logo">
@@ -40,13 +41,13 @@
             <a href="/#prizes" class="nav__link anchor">Призы</a>
           </li>
           <li class="nav__item">
-            <a href="product.html" class="nav__link nav__link_active">Продукт</a>
+            <a href="product.html" class="nav__link">Продукт</a>
           </li>
           <li class="nav__item">
             <a href="#" class="nav__link">Правила</a>
           </li>
           <li class="nav__item">
-            <a href="winners.html" class="nav__link">Победители</a>
+            <a href="winners.html" class="nav__link nav__link_active">Победители</a>
           </li>
           <li class="nav__item">
             <a href="faq.html" class="nav__link">Вопрос-ответ</a>
@@ -60,46 +61,123 @@
       <div class="logo-batman"></div>
     </header>
     <main class="content wrapper">
-      <h1 class="content__title titleH1">Продукт</h1>
-      <p class="content__text">Покупай OREO в эксклюзивной упаковке, регистрируй коды с упаковок и выигрывай призы</p>
-      <div class="products">
-        <ul class="products__list">
-          <li class="products__item">
-            <img src="./assets/img/products/1.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой с ванильным вкусом</p>
-            <p class="products__weight">95 г</p>
+      <h1 class="content__title titleH1">Победители</h1>
+      <div class="btn-wrapper">
+        <button class="btn reg-code-btn pop-op" data-popup="popup-register-code">зарегистрировать код</button>
+      </div>
+      <div class="content__search-winner">
+        <div class="select content__select-date">
+          <select name="building" class="select-search" data-placeholder="1/02/21 — 7/02/21" required>
+            <option value="1">1/02/21 — 7/02/21</option>
+            <option value="1">2/02/21 — 7/02/21</option>
+            <option value="1">3/02/21 — 7/02/21</option>
+          </select>
+        </div>
+        <div class="content__input-search-wrapper">
+          <button class="content__btn-search-by-phone" aria-label="Search">
+            <svg aria-hidden="true" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1.20711 7.5C1.20711 9.02862 1.66442 10.4504 2.4497 11.6361L0.43934 13.6464C-0.146447 14.2322 -0.146447 15.182 0.43934 15.7678C1.02513 16.3536 1.97487 16.3536 2.56066 15.7678L4.57102 13.7574C5.75667 14.5427 7.17848 15 8.70711 15C12.8492 15 16.2071 11.6421 16.2071 7.5C16.2071 3.35786 12.8492 0 8.70711 0C4.56497 0 1.20711 3.35786 1.20711 7.5ZM13.2071 7.5C13.2071 9.98528 11.1924 12 8.70711 12C6.22183 12 4.20711 9.98528 4.20711 7.5C4.20711 5.01472 6.22183 3 8.70711 3C11.1924 3 13.2071 5.01472 13.2071 7.5Z"/>
+            </svg>
+          </button>
+          <input type="text" name="search-by-phone" class="content__search-by-phone phone-mask" id="search-by-phone" placeholder="Поиск по номеру телефона">
+        </div>
+      </div>
+      <div class="content__winners winners">
+        <div class="winners__labels">
+          <div class="winners__group">
+            <p class="winners__label winners__label-name">Имя</p>
+            <p class="winners__label winners__label-date">Дата</p>
+            <p class="winners__label winners__label-phone">Телефон</p>
+            <p class="winners__label winners__label-winner">Победитель</p>
+          </div>
+          <p class="winners__label winners__label-prize">Приз</p>
+        </div>
+        <ul class="winners__list scrollbar-inner">
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize1-icon.png 1x, ./assets/img/prizes/prize1-icon@2x.png 2x" alt="Prize">
+              Кепка «OREO и Бэтмен»
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/2.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой со вкусом шоколада</p>
-            <p class="products__weight">95 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize2-icon.png 1x, ./assets/img/prizes/prize2-icon@2x.png 2x" alt="Prize">
+              Кружка «OREO и Бэтмен»
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/3.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой с клубничным вкусом</p>
-            <p class="products__weight">95 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize3-icon.png 1x, ./assets/img/prizes/prize3-icon@2x.png 2x" alt="Prize">
+              Сумка «OREO и Бэтмен»
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/4.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой с ванильным вкусом</p>
-            <p class="products__weight">228 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize4-icon.png 1x, ./assets/img/prizes/prize4-icon@2x.png 2x" alt="Prize">
+              Сертификат на билеты в кино
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/5.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой со вкусом шоколада</p>
-            <p class="products__weight">228 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize1-icon.png 1x, ./assets/img/prizes/prize1-icon@2x.png 2x" alt="Prize">
+              Кепка «OREO и Бэтмен»
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/6.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой с клубничным вкусом</p>
-            <p class="products__weight">228 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize1-icon.png 1x, ./assets/img/prizes/prize1-icon@2x.png 2x" alt="Prize">
+              Кепка «OREO и Бэтмен»
+            </p>
           </li>
-          <li class="products__item">
-            <img src="./assets/img/products/7.png" alt="Product" class="products__img">
-            <p class="products__name">Печенье OREO с какао и начинкой с ванильным вкусом</p>
-            <p class="products__weight">38 г</p>
+          <li class="winners__item winner-item">
+            <div class="winners__group">
+              <p class="winner-item__name">Александр Р.</p>
+              <p class="winner-item__date">11.09.2021</p>
+              <p class="winner-item__phone">+7 (***) ***-4563</p>
+            </div>
+            <p class="winner-item__prize">
+              <img srcset="./assets/img/prizes/prize1-icon.png 1x, ./assets/img/prizes/prize1-icon@2x.png 2x" alt="Prize">
+              Кепка «OREO и Бэтмен»
+            </p>
           </li>
         </ul>
+      </div>
+      <div class="winner-main-prize-wrapper">
+        <h2 class="content__title2 titleH2">Главный приз</h1>
+        <p class="content__text">
+          Встречайте счастливчика, выигравшего поездку в Лондон. <br>Это Константин П. с телефоном +7 (***) ***-4563
+        </p>
+        <div class="winner-main-prize"></div>
       </div>
     </main>
     <footer class="footerWrapper">

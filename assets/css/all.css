@@ -1085,15 +1085,12 @@
   z-index: 3;
 }
 
-.footer {
-  font-family: "Pluto Sans Cond", sans-serif;
-}
 .footer__text {
   max-width: 940px;
   margin: 0 auto;
   margin-bottom: 25px;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 .footer__links {
@@ -1112,8 +1109,13 @@
 }
 .footer__link {
   color: #fff;
-  font-size: 14px;
+  font-size: 24px;
   text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 14px;
+  }
 }
 .footer__link:hover {
   text-decoration: none;
@@ -1413,7 +1415,10 @@ a:focus {
 
 .lk-page .gotham-decor,
 .product-page .gotham-decor,
-.faq-page .gotham-decor {
+.faq-page .gotham-decor,
+.winners-page .gotham-decor,
+.error-page .gotham-decor,
+.cookie-page .gotham-decor {
   height: 390px;
 }
 
@@ -1437,8 +1442,14 @@ a:focus {
     height: 404px;
   }
 
-  .lk-page .gotham-decor {
+  .lk-page .gotham-decor,
+  .winners-page .gotham-decor {
     height: 510px;
+  }
+
+  .error-page .gotham-decor,
+  .cookie-page .gotham-decor {
+    height: 340px;
   }
 }
 
