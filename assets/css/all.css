@@ -891,7 +891,7 @@
   align-items: center;
 }
 .nav__item {
-  margin: auto;
+  margin: 0;
 }
 .nav__link {
   padding: 5px 14px 3px;
