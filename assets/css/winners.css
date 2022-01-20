@@ -312,3 +312,133 @@
 .scrollbar-inner > .scroll-element .scroll-bar {
   background: #2B95C2;
 }
+
+.winners-announce {
+  position: relative;
+  padding-top: 40px;
+  margin: 110px auto;
+  max-width: 530px;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.winners-announce::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 56px;
+  height: 17px;
+  background: url(../img/bat-popup.svg) center no-repeat;
+  background-size: contain;
+}
+
+.date-filter {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+}
+
+.datepicker-here {
+  width: 100%;
+  height: 46px;
+  padding-left: 46px;
+  padding-right: 45px;
+  font-family: "TT Limes Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #060F15;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  transition: all .2s linear;
+}
+
+.date-filter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 16px;
+  bottom: 0;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background: url(../img/calendar.svg) center no-repeat;
+  background-size: contain;
+}
+
+.date-filter::after {
+  content: '';
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  top: calc(50% - 5px);
+  right: 20px;
+  background-image: url(../img/arrow-red.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.datepicker {
+  width: 200px;
+  border: 1px solid #CD0319;
+  font-family: "TT Limes Sans", sans-serif;
+}
+
+.datepicker--pointer {
+  border-top: 1px solid #CD0319;
+  border-right: 1px solid #CD0319;
+}
+
+.datepicker--nav-title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  color: #CD0319;
+}
+
+.datepicker--nav-title i {
+  color: #CD0319;
+}
+
+.datepicker--day-name {
+  color: #CD0319;
+}
+
+.datepicker--cell.-current- {
+  color: #CD0319;
+}
+
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-focus- {
+  color: #fff;
+}
+
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-current- {
+  background: transparent;
+}
+
+.datepicker--cell.-selected-.-focus- {
+  background: #FCE7A7;
+}
+
+.datepicker--cell.-selected-::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background: #CD0319;
+  border-radius: 50px;
+  z-index: -1;
+}

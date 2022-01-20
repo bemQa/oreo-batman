@@ -8,6 +8,7 @@
   <link rel="icon" href="./favicon.ico">
   <link rel="stylesheet" href="./assets/libs/scrollbar/jquery.scrollbar.css">
   <link rel="stylesheet" href="./assets/libs/select2/select2-v1.min.css">
+  <link rel="stylesheet" href="./assets/libs/datepicker/datepicker.min.css">
   <link href="./assets/css/all.css" rel="stylesheet">
   <link href="./assets/css/winners.css" rel="stylesheet">
 </head>
@@ -65,13 +66,17 @@
       <div class="btn-wrapper">
         <button class="btn reg-code-btn pop-op" data-popup="popup-register-code">зарегистрировать код</button>
       </div>
+      <!-- <div class="winners-announce">Победителей пока нет. Регистрируй коды, чтобы стать одним из счастливчиков, получивших призы «OREO и Бэтмен»</div> -->
       <div class="content__search-winner">
-        <div class="select content__select-date">
+        <!-- <div class="select content__select-date">
           <select name="building" class="select-search" data-placeholder="1/02/21 — 7/02/21" required>
             <option value="1">1/02/21 — 7/02/21</option>
             <option value="1">2/02/21 — 7/02/21</option>
             <option value="1">3/02/21 — 7/02/21</option>
           </select>
+        </div> -->
+        <div class="date-filter">
+          <input type="text" class="datepicker-here" readonly>
         </div>
         <div class="content__input-search-wrapper">
           <button class="content__btn-search-by-phone" aria-label="Search">
@@ -397,6 +402,7 @@
   <script src="./assets/libs/select2/select2.min.js"></script>
   <script src="./assets/libs/jquery.inputmask.min.js"></script>
   <script src="./assets/libs/jquery.validate.min.js"></script>
+  <script src="./assets/libs/datepicker/datepicker.min.js"></script>
   <script src="./assets/libs/libs-setup.js"></script>
   <script src="./assets/js/app.js"></script>
 </body>
