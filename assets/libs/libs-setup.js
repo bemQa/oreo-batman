@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
          $('.header__nav').removeClass('show-nav');
       }
       elementClick = $(this).attr("href");
-      destination = $(elementClick).offset().top-150;
+      destination = $(elementClick).offset().top;
       $('html, body').animate( { scrollTop: destination }, 500, 'swing' );
       return false;
   });
@@ -18,7 +18,7 @@ jQuery(document).ready(function(){
     $('.flip-container').addClass('active');
     setTimeout(function () {
       OpenPopup('popup-get-prize');
-    }, 6500);
+    }, 4500);
   });
 });
 

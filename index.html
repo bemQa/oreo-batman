@@ -67,13 +67,13 @@
       <div class="header-content">
         <div class="header-content__info">
           <p class="header-content__text1">выиграй <br>бэтмен-приключение <br>в лондоне!</p>
-          <div class="steps">
+          <div id="prizes" class="steps">
             <div class="step">
               <div class="step-img">
                 <img srcset="./assets/img/steps/step1.png 1x, ./assets/img/steps/step1@2x.png 2x" alt="">
               </div>
               <div class="step-title">1. покупай</div>
-              <div class="step-text">OREO в эксклюзивной <br>упаковке</div>
+              <div class="step-text">OREO в эксклюзивной <br class="desktop-visible">упаковке</div>
             </div>
             <div class="step">
               <div class="step-img">
@@ -87,15 +87,15 @@
                 <img srcset="./assets/img/steps/step3.png 1x, ./assets/img/steps/step3@2x.png 2x" alt="">
               </div>
               <div class="step-title">3. выиграй</div>
-              <div class="step-text">поездку в Лондон <br>и крутые <a href="#prizes" class="anchor link">бэт-призы</a></div>
+              <div class="step-text">поездку в Лондон <br>и крутые <a href="#prizes2" class="anchor link">бэт-призы</a></div>
             </div>
           </div>
           <div class="btn-wrapper">
-            <button class="btn pop-op" data-popup="popup-login">зарегистрировать код</button>
+            <button class="btn pop-op" data-popup="popup-login">загрузить код</button>
           </div>
         </div>
       </div>
-      <div id="prizes" class="prizes-block wrapper">
+      <div id="prizes2" class="prizes-block wrapper">
         <div class="prizes-title-wrapper">
           <div class="prizes-title">БЭТ-ПРИЗЫ</div>
         </div>
@@ -173,12 +173,11 @@
       </button>
       <form action="/">
         <p class="popup__title">Вход</p>
-        <p class="popup__text popup__text_help"></p>
-        <input type="text" name="email" id="login" class="popup__input-text popup__input-login" placeholder="Ваш e-mail">
+        <input type="text" name="email" id="login" class="popup__input-text popup__input-login" placeholder="E-mail">
         <p class="popup__error"></p>
         <div class="popup__input-wrapper popup__input-wrapper_password">
-          <input type="text" name="password" id="password" class="popup__input-text popup__input-text_password" placeholder="Ваш пароль">
-          <a href="#" class="popup__text-link popup__text-link_get-pass pop-op" data-popup="popup-restore-password">Забыли пароль?</a>
+          <input type="text" name="password" id="password" class="popup__input-text popup__input-text_password" placeholder="Пароль">
+          <a href="#" class="popup__text-link popup__text-link_get-pass pop-op" data-popup="popup-restore-password">Не помнишь пароль?</a>
         </div>
         <p class="popup__error"></p>
         <button class="popup__btn-login btn">Войти</button>
@@ -243,7 +242,7 @@
           <label for="check-data2" class="checkbox">
             <input id="check-data2" name="check-data2" type="checkbox" required>
             <span class="checkmark"></span>
-            <span class="checkbox-text">Я соглашаюсь получать рекламную рассылку по электронной почте об акциях и продуктах компании ООО «Мон’дэлис Русь, в целях получения данной рассылки даю свое <a href="#" class="check-box-link" target="_blank">согласие</a> на обработку своих персональных данных </span>
+            <span class="checkbox-text">Я соглашаюсь получать рекламную рассылку об акциях и продуктах компании ООО «Мон’дэлис Русь, в целях получения данной рассылки даю свое <a href="#" class="check-box-link" target="_blank">согласие</a> на обработку своих персональных данных</span>
           </label>
         </div>
         <button class="popup__btn-send btn">Участвовать</button>

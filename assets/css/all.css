@@ -783,6 +783,7 @@
 }
 .header__logo {
   flex-shrink: 0;
+  margin-top: 15px;
 }
 @media screen and (max-width: 1280px) {
   .header__logo {
@@ -791,6 +792,7 @@
   }
 }
 .header__logo img {
+  max-width: 180px;
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
@@ -889,9 +891,10 @@
   align-items: center;
 }
 .nav__item {
-  margin-right: 20px;
+  margin: auto;
 }
 .nav__link {
+  padding: 5px 14px 3px;
   border-radius: 20px;
   color: #fff;
   font-size: 18px;
@@ -903,7 +906,6 @@
   color: #CD0319;
 }
 .nav__link_active {
-  padding: 5px 14px 3px;
   background: #060F15;
 }
 
@@ -1102,10 +1104,16 @@
 @media screen and (max-width: 768px) {
   .footer__links {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 .footer__link-item:not(:last-child) {
   margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .footer__link-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 .footer__link {
   color: #fff;
@@ -1127,6 +1135,7 @@
 }
 @media screen and (max-width: 768px) {
   .footer__info {
+    position: relative;
     flex-direction: column;
     align-items: center;
   }
@@ -1138,7 +1147,11 @@
 }
 @media screen and (max-width: 768px) {
   .footer__contacts {
+    position: absolute;
+    top: -70px;
+    right: 0;
     margin-bottom: 20px;
+    align-items: flex-end;
   }
 }
 .footer__tel {
@@ -1146,10 +1159,21 @@
   color: #fff;
   font-size: 21px;
 }
+@media screen and (max-width: 768px) {
+  .footer__tel {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+}
 .footer__mail {
   color: #fff;
   font-size: 16px;
   text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .footer__mail {
+    font-size: 16px;
+  }
 }
 .footer__mail:hover {
   text-decoration: none;
@@ -1191,6 +1215,13 @@
 }
 .footer .social__item:not(:last-child) {
   margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+  .footer__social {
+    position: absolute;
+    top: -110px;
+    right: 0;
+  }
 }
 .footer .social__link {
   display: block;
@@ -1500,7 +1531,7 @@ a:focus {
   background-size: contain;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1440px) {
   .searchlight {
     top: 20px;
     width: 341px;
@@ -1550,7 +1581,7 @@ a:focus {
 }
 
 .flip-container.active .flipper {
-    animation: flip 5s ease-out;
+    animation: flip 3s ease-out;
     animation-fill-mode: both;
 }
 
@@ -1560,8 +1591,8 @@ a:focus {
     transform: rotateY(0deg);
   }
   to {
-    -webkit-transform: rotateY(-1980deg);
-    transform: rotateY(-1980deg);
+    -webkit-transform: rotateY(-900deg);
+    transform: rotateY(-900deg);
   }
 }
 
@@ -1612,4 +1643,18 @@ a:focus {
 
 .select2-container {
   width: 100% !important;
+}
+
+body .mobile-visible {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body .mobile-visible {
+        display: block;
+    }
+
+    body .desktop-visible {
+        display: none;
+    }
 }
