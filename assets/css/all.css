@@ -391,129 +391,129 @@
   background-size: contain;
 }
 
-#popup-register-code .popup__btn-where-to-find {
+.popup-register-code .popup__btn-where-to-find {
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
-#popup-code-accepted .popup__text {
+.popup-code-accepted .popup__text {
   margin-bottom: 50px;
 }
 
-#popup-where-find-code .popup__text {
+.popup-where-find-code .popup__text {
   max-width: 180px;
   margin-bottom: 35px;
 }
-#popup-where-find-code .popup__img {
+.popup-where-find-code .popup__img {
   margin-bottom: 30px;
   transform: rotate(3deg);
 }
 
-#popup-add-friend .popup__text {
+.popup-add-friend .popup__text {
   margin-bottom: 40px;
 }
 
-#popup-add-friend-request-send .popup__text {
+.popup-add-friend-request-send .popup__text {
   max-width: 250px;
   margin-bottom: 30px;
 }
 
-#popup-add-friend-input .popup__input-text {
+.popup-add-friend-input .popup__input-text {
   margin-bottom: 25px;
 }
 
-#popup-team-score .popup__score {
+.popup-team-score .popup__score {
   margin-bottom: 30px;
 }
-#popup-team-score .popup__text {
-  margin-bottom: 30px;
-  line-height: 1.1;
-  font-size: 28px;
-}
-
-#popup-my-score .popup__score {
-  margin-bottom: 30px;
-}
-#popup-my-score .popup__text {
+.popup-team-score .popup__text {
   margin-bottom: 30px;
   line-height: 1.1;
   font-size: 28px;
 }
 
-#popup-my-team .popup__text {
+.popup-my-score .popup__score {
+  margin-bottom: 30px;
+}
+.popup-my-score .popup__text {
+  margin-bottom: 30px;
+  line-height: 1.1;
+  font-size: 28px;
+}
+
+.popup-my-team .popup__text {
   margin-bottom: 50px;
 }
 
-#popup-get-prize .popup__title {
+.popup-get-prize .popup__title {
   margin-bottom: 5px;
 }
-#popup-get-prize .text-primary,
-#popup-get-prize-address .text-primary,
-#popup-lose-prize .text-primary {
+.popup-get-prize .text-primary,
+.popup-get-prize-address .text-primary,
+.popup-lose-prize .text-primary {
   font-size: 24px;
 }
-#popup-get-prize .text-secondary {
+.popup-get-prize .text-secondary {
   margin-bottom: 5px;
   font-size: 16px;
   line-height: 1.3;
 }
-#popup-get-prize .popup__link {
+.popup-get-prize .popup__link {
   font-size: 16px;
   text-decoration: underline;
 }
-#popup-get-prize .popup__btn-send {
+.popup-get-prize .popup__btn-send {
   margin: 20px auto;
 }
 
-#popup-registration .popup__input-text {
+.popup-registration .popup__input-text {
   margin-bottom: 10px;
 }
-#popup-registration .popup__input-text_last-name, #popup-registration .popup__input-text_phone, #popup-get-prize-address .popup__input-text_last-name, #popup-get-prize-address .popup__input-text_phone {
+.popup-registration .popup__input-text_last-name, .popup-registration .popup__input-text_phone, .popup-get-prize-address .popup__input-text_last-name, .popup-get-prize-address .popup__input-text_phone {
   margin-bottom: 30px;
 }
-#popup-registration .popup__checkbox_rules {
+.popup-registration .popup__checkbox_rules {
   margin-bottom: 15px;
 }
-#popup-registration .popup__checkbox_my-data {
+.popup-registration .popup__checkbox_my-data {
   margin-bottom: 30px;
 }
-#popup-registration .popup__checkbox_action {
-  margin-bottom: 30px;
-}
-
-#popup-registration-confirm .popup__text {
+.popup-registration .popup__checkbox_action {
   margin-bottom: 30px;
 }
 
-#popup-login .popup__text_help {
+.popup-registration-confirm .popup__text {
+  margin-bottom: 30px;
+}
+
+.popup-login .popup__text_help {
   margin-bottom: 20px;
 }
-#popup-login .popup__input-login {
+.popup-login .popup__input-login {
   margin-bottom: 10px;
 }
-#popup-login .popup__input-wrapper_password {
+.popup-login .popup__input-wrapper_password {
   position: relative;
   margin-bottom: 30px;
 }
-#popup-login .popup__input-text_password {
+.popup-login .popup__input-text_password {
   padding-right: 100px;
 }
-#popup-login .popup__text-link_get-pass {
+.popup-login .popup__text-link_get-pass {
   position: absolute;
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
   color: #CD0319;
 }
-#popup-login .popup__btn-login {
+.popup-login .popup__btn-login {
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 20px;
 }
-#popup-login .popup__text_help2 {
+.popup-login .popup__text_help2 {
   margin-bottom: 5px;
 }
-#popup-login .popup__link-register {
+.popup-login .popup__link-register {
   margin: 0 auto;
   font-size: 21px;
   text-align: center;
@@ -521,28 +521,28 @@
   text-transform: uppercase;
 }
 
-#popup-join-team-done .popup__svg-icon {
+.popup-join-team-done .popup__svg-icon {
   margin-bottom: 23px;
 }
-#popup-join-team-done .popup__text {
+.popup-join-team-done .popup__text {
   font-size: 24px;
 }
-#popup-join-team-done .popup__text_1 {
+.popup-join-team-done .popup__text_1 {
   margin-bottom: 25px;
 }
-#popup-join-team-done .popup__text_2 {
+.popup-join-team-done .popup__text_2 {
   margin-bottom: 30px;
 }
 
-#popup-join-team-ask .popup__text_1 {
+.popup-join-team-ask .popup__text_1 {
   margin-bottom: 20px;
   font-size: 24px;
 }
-#popup-join-team-ask .popup__text_2 {
+.popup-join-team-ask .popup__text_2 {
   margin-bottom: 30px;
   font-size: 18px;
 }
-#popup-join-team-ask .referrer {
+.popup-join-team-ask .referrer {
   width: 200px;
   margin-bottom: 20px;
   padding: 10px 20px;
@@ -550,29 +550,29 @@
   background-color: #fff;
   color: #0041FF;
 }
-#popup-join-team-ask .referrer-name {
+.popup-join-team-ask .referrer-name {
   margin-bottom: 5px;
   font-size: 24px;
 }
-#popup-join-team-ask .referrer-score {
+.popup-join-team-ask .referrer-score {
   font-size: 16px;
 }
-#popup-join-team-ask .referrer-score .color-pink {
+.popup-join-team-ask .referrer-score .color-pink {
   color: #FC18D6;
   font-weight: 700;
 }
 
-#popup-invite-1 .popup__text,
-#popup-invite-2 .popup__text {
+.popup-invite-1 .popup__text,
+.popup-invite-2 .popup__text {
   margin-bottom: 15px;
   font-size: 24px;
 }
-#popup-invite-1 .popup__text .text-bold,
-#popup-invite-2 .popup__text .text-bold {
+.popup-invite-1 .popup__text .text-bold,
+.popup-invite-2 .popup__text .text-bold {
   font-weight: 700;
 }
-#popup-invite-1 .invite-list,
-#popup-invite-2 .invite-list {
+.popup-invite-1 .invite-list,
+.popup-invite-2 .invite-list {
   width: calc(100% + 70px);
   margin-bottom: 20px;
   padding: 0 45px;
@@ -580,145 +580,145 @@
   color: #0041FF;
 }
 @media screen and (max-width: 480px) {
-  #popup-invite-1 .invite-list,
-#popup-invite-2 .invite-list {
+  .popup-invite-1 .invite-list,
+.popup-invite-2 .invite-list {
     padding: 0 25px;
   }
 }
-#popup-invite-1 .invite-list__item,
-#popup-invite-2 .invite-list__item {
+.popup-invite-1 .invite-list__item,
+.popup-invite-2 .invite-list__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
 }
-#popup-invite-1 .invite-list__item:not(:last-child),
-#popup-invite-2 .invite-list__item:not(:last-child) {
+.popup-invite-1 .invite-list__item:not(:last-child),
+.popup-invite-2 .invite-list__item:not(:last-child) {
   border-bottom: 1px solid #C4C4C4;
 }
-#popup-invite-1 .invite-list__name,
-#popup-invite-2 .invite-list__name {
+.popup-invite-1 .invite-list__name,
+.popup-invite-2 .invite-list__name {
   margin-bottom: 5px;
   font-size: 24px;
 }
-#popup-invite-1 .invite-list__score,
-#popup-invite-2 .invite-list__score {
+.popup-invite-1 .invite-list__score,
+.popup-invite-2 .invite-list__score {
   font-size: 16px;
 }
-#popup-invite-1 .invite-list__score .color-pink,
-#popup-invite-2 .invite-list__score .color-pink {
+.popup-invite-1 .invite-list__score .color-pink,
+.popup-invite-2 .invite-list__score .color-pink {
   color: #FC18D6;
   font-weight: 700;
 }
-#popup-invite-1 .invite-list__btn-join,
-#popup-invite-2 .invite-list__btn-join {
+.popup-invite-1 .invite-list__btn-join,
+.popup-invite-2 .invite-list__btn-join {
   padding: 9px 20px;
   font-size: 14px;
 }
-#popup-invite-1 .invite-list__btn-join[disabled],
-#popup-invite-2 .invite-list__btn-join[disabled] {
+.popup-invite-1 .invite-list__btn-join[disabled],
+.popup-invite-2 .invite-list__btn-join[disabled] {
   background-color: #DCDCDC;
   pointer-events: none;
 }
-#popup-invite-1 .invite-list__btn-close,
-#popup-invite-2 .invite-list__btn-close {
+.popup-invite-1 .invite-list__btn-close,
+.popup-invite-2 .invite-list__btn-close {
   font-size: 20px;
 }
 
-#popup-leave-team .popup__text {
+.popup-leave-team .popup__text {
   margin-bottom: 40px;
   font-size: 18px;
 }
-#popup-leave-team .popup__btn-leave {
+.popup-leave-team .popup__btn-leave {
   margin-bottom: 35px;
   font-size: 20px;
 }
-#popup-leave-team .popup__link {
+.popup-leave-team .popup__link {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
 }
-#popup-leave-team .popup__link:hover {
+.popup-leave-team .popup__link:hover {
   color: #FC18D6;
 }
 
-#popup-add-points .popup__text {
+.popup-add-points .popup__text {
   margin-bottom: 40px;
   font-size: 18px;
 }
-#popup-add-points .popup__input-num {
+.popup-add-points .popup__input-num {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
-#popup-add-points .popup__input-text_points {
+.popup-add-points .popup__input-text_points {
   color: #02284A;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
-#popup-add-points .popup__input-text_points::-moz-placeholder {
+.popup-add-points .popup__input-text_points::-moz-placeholder {
   color: #989898;
   font-size: 20px;
   font-weight: 400;
 }
-#popup-add-points .popup__input-text_points:-ms-input-placeholder {
+.popup-add-points .popup__input-text_points:-ms-input-placeholder {
   color: #989898;
   font-size: 20px;
   font-weight: 400;
 }
-#popup-add-points .popup__input-text_points::placeholder {
+.popup-add-points .popup__input-text_points::placeholder {
   color: #989898;
   font-size: 20px;
   font-weight: 400;
 }
-#popup-add-points .popup__btn-decrease,
-#popup-add-points .popup__btn-increase {
+.popup-add-points .popup__btn-decrease,
+.popup-add-points .popup__btn-increase {
   width: 50px;
   height: 50px;
   flex-shrink: 0;
   border-radius: 50%;
   background-color: #FC18D6;
 }
-#popup-add-points .popup__btn-decrease:hover,
-#popup-add-points .popup__btn-increase:hover {
+.popup-add-points .popup__btn-decrease:hover,
+.popup-add-points .popup__btn-increase:hover {
   box-shadow: 0px 0px 40px #FF66E5;
   background-color: #FF66E5;
 }
-#popup-add-points .popup__btn-decrease {
+.popup-add-points .popup__btn-decrease {
   margin-right: 10px;
 }
-#popup-add-points .popup__btn-decrease svg {
+.popup-add-points .popup__btn-decrease svg {
   margin-top: 2px;
 }
-#popup-add-points .popup__btn-increase {
+.popup-add-points .popup__btn-increase {
   margin-left: 10px;
 }
-#popup-add-points .popup__btn-add-points {
+.popup-add-points .popup__btn-add-points {
   margin: 0 auto;
   font-size: 20px;
 }
 
-#popup-score-list .popup__text {
+.popup-score-list .popup__text {
   max-width: 250px;
 }
 
-#popup-one-point {
+.popup-one-point {
   background: transparent;
 }
-#popup-one-point .popup__img {
+.popup-one-point .popup__img {
   margin-bottom: 0;
 }
-#popup-one-point .popup__text {
+.popup-one-point .popup__text {
   margin-bottom: 30px;
   font-size: 24px;
 }
-#popup-one-point .popup__custom-underline {
+.popup-one-point .popup__custom-underline {
   position: relative;
 }
-#popup-one-point .popup__custom-underline::after {
+.popup-one-point .popup__custom-underline::after {
   content: "";
   width: 85px;
   height: 7px;
@@ -732,7 +732,7 @@
   background-position: center;
 }
 
-#popup-text .popup__text {
+.popup-text .popup__text {
   margin-bottom: 30px;
   font-size: 20px;
 }
