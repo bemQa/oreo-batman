@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
   jQuery('.scrollbar-inner').scrollbar();
 
   $('.anchor[href^="#"]').click(function () {
-      if($(window).innerWidth() <= 1000) {
+      if($(window).innerWidth() <= 1280) {
          $('.header__nav').removeClass('show-nav');
       }
       elementClick = $(this).attr("href");
