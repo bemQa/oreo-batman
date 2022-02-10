@@ -1097,10 +1097,10 @@
 }
 
 .footer__text {
-  max-width: 940px;
+  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 25px;
-  color: #fff;
+  color: #165186;
   font-size: 14px;
   text-align: center;
 }
@@ -1121,17 +1121,17 @@
 }
 @media screen and (max-width: 768px) {
   .footer__link-item:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 }
 .footer__link {
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   text-decoration: underline;
 }
 @media screen and (max-width: 768px) {
   .footer__link {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .footer__link:hover {
@@ -1153,15 +1153,25 @@
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  max-width: 282px;
 }
 @media screen and (max-width: 768px) {
   .footer__contacts {
-    position: absolute;
-    top: -70px;
-    right: 0;
+    align-items: center;
     margin-bottom: 20px;
-    align-items: flex-end;
+    text-align: center;
   }
+}
+.footer__contact {
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+.footer__contact:nth-child(1) {
+  margin-bottom: 10px;
+}
+.footer__contact a {
+  color: #2B95C2;
 }
 .footer__tel {
   margin-bottom: 15px;
@@ -1171,7 +1181,8 @@
 @media screen and (max-width: 768px) {
   .footer__tel {
     font-size: 17px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
 }
 .footer__mail {
@@ -1215,21 +1226,40 @@
   font-size: 12px;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .footer__rights-text {
+    font-size: 8px;
+  }
+}
+.footer__social-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 282px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .footer__social-wrapper {
+    position: absolute;
+    top: -105px;
+    right: 0;
+  }
+}
 .footer__social {
   flex-shrink: 0;
 }
 .footer .social {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .footer .social__item:not(:last-child) {
   margin-right: 8px;
 }
 @media screen and (max-width: 768px) {
   .footer__social {
-    position: absolute;
-    top: -110px;
-    right: 0;
+    order: -1;
+    margin-bottom: 15px;
   }
 }
 .footer .social__link {
@@ -1240,6 +1270,15 @@
 .footer .social__link svg {
   width: 100%;
   height: 100%;
+}
+.footer__tel-label {
+  font-size: 16px;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .footer__tel-label {
+    font-size: 12px;
+  }
 }
 
 .titleH1,
