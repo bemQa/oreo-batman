@@ -350,7 +350,7 @@
   width: 40px;
 }
 .content .user-codes__label-text {
-  width: 110px;
+  width: 140px;
 }
 .content .user-codes__list {
   height: 300px;
@@ -428,11 +428,11 @@
   flex-shrink: 0;
 }
 .content .user-codes .code-item__text {
-  width: 110px;
+  width: 140px;
   font-size: 18px;
   line-height: 1;
   margin-left: 15px;
-  margin-right: auto;
+  margin-right: 0;
 }
 @media screen and (max-width: 480px) {
   .content .user-codes .code-item__text {
@@ -445,6 +445,10 @@
 .content .user-codes .code-item__text a {
   color: #CD0319;
   text-decoration: underline;
+}
+
+.content .user-codes .code-item__text span {
+  color: #989898;
 }
 
 .select {
