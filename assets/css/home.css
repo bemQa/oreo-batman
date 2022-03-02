@@ -133,7 +133,7 @@
 }
 
 .step:nth-child(3) .step-img img {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {
