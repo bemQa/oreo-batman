@@ -1414,7 +1414,7 @@ body {
     padding-top: 100px;
   }
   .main-page .content {
-    padding-top: 130px;
+    padding-top: 100px;
   }
 }
 .page .footer {
@@ -1501,7 +1501,7 @@ a:focus {
 }
 
 .main-page .gotham-decor {
-  height: 518px;
+  height: 600px;
 }
 
 .lk-page .gotham-decor,
@@ -1510,7 +1510,7 @@ a:focus {
 .winners-page .gotham-decor,
 .error-page .gotham-decor,
 .cookie-page .gotham-decor {
-  height: 390px;
+  height: 500px;
 }
 
 @media screen and (max-width: 1366px) {
@@ -1524,13 +1524,13 @@ a:focus {
   .gotham-decor,
   .product-page .gotham-decor,
   .faq-page .gotham-decor {
-    height: 404px;
+    height: 500px;
     background: url(../img/gotham.png) -100px bottom no-repeat, linear-gradient(180deg, #0E3A75 0%, #3D98D2 100%);
     background-size: 1200px;
   }
 
   .main-page .gotham-decor {
-    height: 404px;
+    height: 450px;
   }
 
   .lk-page .gotham-decor,
@@ -1583,7 +1583,7 @@ a:focus {
 
 .searchlight {
   position: absolute;
-  top: -20px;
+  top: -50px;
   left: 0;
   width: 483px;
   height: 514px;
@@ -1593,9 +1593,15 @@ a:focus {
 
 @media screen and (max-width: 1440px) {
   .searchlight {
-    top: 20px;
+    top: -50px;
     width: 341px;
     height: 388px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .searchlight {
+    top: 20px;
   }
 }
 
@@ -1618,6 +1624,12 @@ a:focus {
   background-size: contain;
 }
 
+@media screen and (max-width: 1440px) {
+  .batman {
+    right: -130px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .batman {
     top: 0;
@@ -1627,7 +1639,7 @@ a:focus {
 
 @media screen and (max-width: 768px) {
   .batman {
-    top: 10px;
+    top: 50px;
     right: -160px;
     width: 287px;
     height: 490px;
